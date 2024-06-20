@@ -68,6 +68,7 @@ def productos_urs():
         if 'carrito' not in session:
             session['carrito'] = []
 
+
         producto_id = request.form['id_producto']
         nombre_producto = request.form['nombre_producto']
         precio_producto = request.form['precio_producto']
